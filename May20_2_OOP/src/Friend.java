@@ -1,11 +1,11 @@
-import java.util.Scanner;
+import java.util.Random;
 
 public class Friend {
 
-	Scanner k = new Scanner(System.in);
+	Random r = new Random();
 	int paper;
-	
+
 	public void friend_answer() {
-		paper = k.nextInt();
+		paper = r.nextInt(100)+1;
 	}
 }
